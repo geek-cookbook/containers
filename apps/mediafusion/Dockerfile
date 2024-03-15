@@ -8,7 +8,7 @@ RUN apk update && apk upgrade && \
 
 RUN git clone -b $VERSION --depth 1 https://github.com/mhdzumair/MediaFusion.git /source
 
-FROM python:3.11-slim-bullseye
+FROM python:3.12-slim-bullseye
 
 WORKDIR /mediafusion
 
