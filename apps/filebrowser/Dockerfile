@@ -7,7 +7,7 @@ FROM filebrowser/filebrowser:v${VERSION} as upstream
 
 
 # FROM ghcr.io/geek-cookbook/alpine:rolling@sha256:6b59b2060ffbb6af76654aae9f5185fbfdfb08b2532d0186f3b14e8ad26b7598 
-FROM ghcr.io/geek-cookbook/ubuntu:rolling@sha256:4de1d348d364db1fee3581591cea174c677f68852c7dfd1009583fa1317851dc 
+FROM ghcr.io/geek-cookbook/ubuntu:rolling@sha256:8e36beee0bc47b9aa7d05a33f9f4257437e77a273ad7bf01ef27ec86ca91f8be 
 
 
 LABEL org.opencontainers.image.source = "https://github.com/filebrowser/filebrowser"
