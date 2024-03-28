@@ -1,5 +1,5 @@
 ARG VERSION
-FROM ghcr.io/geek-cookbook/alpine:edge@sha256:6b59b2060ffbb6af76654aae9f5185fbfdfb08b2532d0186f3b14e8ad26b7598
+FROM ghcr.io/geek-cookbook/alpine:edge@sha256:14bc9c78648cf719c9cfdfcacea362635a0d86c2b27c3292347f83ad703a342b
 
 ENV TZ="UTC" \
   PUID="568" \
