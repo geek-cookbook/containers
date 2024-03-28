@@ -1,6 +1,6 @@
 # From https://github.com/dnsforge-repo/xteve/tree/master/bin
 
-FROM ghcr.io/geek-cookbook/alpine:rolling@sha256:6b59b2060ffbb6af76654aae9f5185fbfdfb08b2532d0186f3b14e8ad26b7598 
+FROM ghcr.io/geek-cookbook/alpine:rolling@sha256:ec8e289d5407239e98d01a9df4d8a22be5c118e977019315942b7000cf0e0a24 
 
 RUN apk update
 RUN apk upgrade
